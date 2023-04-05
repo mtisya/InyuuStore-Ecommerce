@@ -1,26 +1,21 @@
-<h2>About The Project "Developer Portfolio"</h2>
+<h1>InyuuStore Ecommerce Project (https://mtisya.github.io/inStore.github.io/).</h1>
 
-<p>I developed this project using <b>PHP/Laravel Framework</b>, this website application is designed  with expressive, optimal and  elegant syntax. With the aim of profiling personal achievement, projects done and testimonials and credit given in the field of professional carreer only on <b>one page website</b>, This informative websites eases the work of writting a 10 page resume show casing your professional experience.</p>
+<h2>About The Project</h2>
+
+<p>I developed this ecommerce website using <b>HTML5, CSS, PHP and javaScript</b>, this application is designed  with expressive, optimal and  elegant syntax. Putting into consinderation the transations function or online payment methods like Mpesa, This online shopping eases the  movement of customer into different shops looking for goods and services and comparing the prices which is tiresome.</p> <p>The website is perfect for the online markets. </p>
 
 <h4>Home Page</h4>
 
 ![readmeimg](https://user-images.githubusercontent.com/8428844/229359328-a7692fe6-6ba6-45a9-9ef0-00f712632b74.PNG)
 
-<p> The development process gave me enjoyable and creative experience and is truly fulfilling. Laravel framework takes the pain out of development by easing common tasks used in many web projects, such as:</p>
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p> The development process gave me enjoyable and creative experience and is truly fulfilling. In this project I gained more experience in the basics of front end website development, enriched my knowledge in html, css(bootstrap), php, and javascript:</p>
 
 ## Main Feature 
 
-The main Feature of this project is on the timeline section where I used vertical listing of the achievements in chronological order.
+1. online payment method - Mpesa
+2. shopping implementation
+3. whishlist and checkout functionality
+
 
 ![timeline](https://user-images.githubusercontent.com/8428844/229361400-2cdf2ae1-fdd4-47ca-87c8-143b89c5239c.PNG)
 
