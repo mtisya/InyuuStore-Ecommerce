@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>inStore Market</title>
+<link href="images/cart-rnd.png" rel="icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- CSS Part Start-->
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="css/slideshow.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/carousel.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="js/colorbox/colorbox.css" media="screen" />
+<!-- CSS Part End-->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="main-wrapper">
+  <!-- Header Start-->
+  <header class="header-top-main">
+    <section class="header-top">
+      <div id="welcome">Welcome visitor you can <a href="login.html">login</a> or <a href="register.html">create an account</a>.</div>
+      <div id="currency"> <a title="US Dollar"><b>$</b></a> <a title="Kenya">KES</a> <a title="Ugandan Shillings">UGS</a> </div>
+      <div id="language"> <a title="flagkenya"><img src="image/flags/flagkenya.png" alt="flagkenya" /></a> <a title="ugandanflag"><img src="image/flags/flaguganda.jpg" alt="ugandanflag" /></a> </div>
+      <!-- Mini Cart Start-->
+      <section id="cart">
+        <div class="heading"> <a><span id="cart_total">3 item(s) - $897.00</span></a></div>
+        <div class="content">
+          <div class="mini-cart-info">
+            <table class="cart">
+              <tbody>
+                <tr>
+                  <td class="image"><a href="asuslaptop.html"><img title="image" alt="figure" src="image/product/asus1.jpeg" style="max-width: 50px; max-height: 50px;"></a></td>
+                  <td class="name"><a href="asuslaptop.html">Asus Laptop</a>
+                  <td class="model">Asus Laptop</td>
+                  <td class="quantity"><input type="text" size="1" value="1" name="" class="w30">
+                    &nbsp;
+                    <input type="image" title="Update" alt="Update" src="image/update.png">
+                    &nbsp;<a href="#"><img title="Remove" alt="Remove" src="image/remove.png"></a></td>
+                  <td class="total">$785.00</td>
+                </tr>
+                <tr>
+                  <td class="image"><a href="producttecno.html"><img title="image" alt="figure" src="image/product/phone/phone2.jfif" style="max-width: 50px; max-height: 50px;"></a></td>
+                  <td class="name"><a href="producttecno.html">Tecno Tablet</a>
+                  <td class="model">Tecno A432</td>
+                  <td class="quantity"><input type="text" size="1" value="1" name="" class="w30">
+                    &nbsp;
+                    <input type="image" title="Update" alt="Update" src="image/update.png">
+                    &nbsp;<a href="#"><img title="Remove" alt="Remove" src="image/remove.png"></a></td>
+                  <td class="price">$105.00</td>
+                </tr>
+                <tr>
+                  <td class="image"><a href="productmouse.html"><img title="image" alt="figure" src="image/product/mouse2.jpg" style="max-width: 50px; max-height: 50px;"></a></td>
+                  <td class="name"><a href="productmouse.html">Mouse</a>                 
+                  <td class="model">HP Mouse</td>
+                  <td class="quantity"><input type="text" size="1" value="1" name="" class="w30">
+                    &nbsp;
+                    <input type="image" title="Update" alt="Update" src="image/update.png">
+                    &nbsp;<a href="#"><img title="Remove" alt="Remove" src="image/remove.png"></a></td>
+                  <td class="price">$7.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mini-cart-total">
+            <table class="total">
+              <tbody>
+                <tr>
+                  <td align="right"><b>Sub-Total</b></td>
+                  <td align="right">$897.00</td>
+                </tr>
+                <tr>
+                  <td align="right"><b>Eco Tax (-2.00)</b></td>
+                  <td align="right">$4.00</td>
+                </tr>
+                <tr>
+                  <td align="right"><b>VAT (16.5%)</b></td>
+                  <td align="right">$36.00</td>
+                </tr>
+                <tr>
+                  <td align="right"><b>Total</b></td>
+                  <td align="right">$937.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="checkout"><a href="cart.html" class="button">View Cart</a><a class="button ml10" href="checkout.html"><span>Checkout</span></a></div>
+        </div>
+      </section>
+      <!-- Mini Cart End-->
+      <div class="clear"></div>
+    </section>
+    <section id="header-main">
+      <div id="header">
+        <div id="logo"><a href="index-2.html"><img src="image/logo2.png" title="inStore HTML Template" alt="instore-html-template" /></a></div>
+        <div class="links"> <a class="home" title="Home" href="index-2.html">Home</a> <a href="wishlist.html" id="wishlist-total">Wish List (4)</a> <a href="#">My Account</a> <a href="cart.html">Shopping Cart</a> <a href="checkout.html">Checkout</a> </div>
+        <div id="search">
+          <div class="button-search"></div>
+          <input type="text" value="" placeholder="Search" id="filter_name" name="search">
+        </div>
+      </div>
+    </section>
+    <!-- Main Navigation Start-->
+    <nav class="menu-main">
+      <h3 class="menuarrow"><span>Menu</span></h3>
+      <div id="menu">
+        <ul>
+          <li><a href="desktop_computers.html">Desktops</a>
+            <div>
+              <ul>
+                <li><a href="product.html">Compq-Desktops (6)</a></li>
+                <li><a href="product_dell.html">Dell-Desktops (4)</a></li>
+                <li><a href="product_asus.html">ASUS-Desktops (12)</a></li>
+                <li><a href="product_hp.html">HP-Desktops(11)</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="Laptops.html">Laptops</a>
+            <div>
+              <ul >
+                <li><a href="appleLaptop.html">Apple Laptops (3)</a></li>
+                <li><a href="dellLaptop.html">Dell-Laptops (5)</a></li>
+                <li><a href="acerLaptop.html">ACER-Laptops(10)</a></li>
+                <li><a href="lenovoLaptop.html">Lenovo-Laptops (6)</a></li>
+              </ul>
+            </div>
+          </li>
+          </li>
+          <li><a href="components.html">Components</a>
+            <div>
+              <ul >
+                <li><a href="productmouse.html">Mice and Trackballs</a></li>
+                <li><a href="product_moniters.html">Monitors </a></li>
+                <li><a href="productprinters.html">Printers &amp; Scanners </a></li>
+                <li><a href="productcamera.html">Cameras</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="tablets.html">Tablets</a> </li>
+          <li><a href="phones.html">Phones &amp; PDAs</a> </li>
+          <li><a href="cameras.html">Cameras</a> </li>
+          <li><a href="50x.html">MP3 Players</a>
+            <div>
+              <ul>
+                <li><a href="50x.html">Motorola (11)</a></li>
+                <li><a href="50x.html">Siemens(13)</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>   
+    </nav>
+    <!-- Main  Navigation End-->
+  </header>
+  <!-- Header End-->
+  <section class="wrapper">
+    <div id="container">
+      <!--Right Part-->
+      <div id="column-right">
+        <!--Categories Part Start-->
+        <div class="box">
+          <div class="box-heading">Categories</div>
+          <div class="box-content box-category">
+            <ul>
+              <li><a href="desktop_computers.html">Desktops</a></li>
+              <li><a href="laptops.html">Laptops</a></li>
+              <li><a href="components.html">Components</a></li>
+              <li><a href="tablets.html">Tablets</a> </li>
+              <li><a href="50x.html">Software</a></li>
+              <li><a href="phones.html">Phones &amp; PDAs</a> </li>
+              <li><a href="cameras.html">Cameras</a> </li>
+              <li><a href="50x.html">MP3 Players</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Categories Part End-->
+      <section class="box">
+  <div class="box-heading"><span>Bestsellers</span></div>
+  <div class="box-content">
+    <div class="box-product">
+      <div>
+        <div class="image"><a href="product_hp.html"><img title="HP-Desktop" alt="HP-Desktop" src="image/product/hp-desktop6 85x100.jpg"></a></div>
+      </div>
+        <div>
+          <div class="image"><a href="product_dell.html"><img title="Dell-Desktop" alt="Dell-Desktop" src="image/product/dell-desktop 85x100.jpg"></a></div>
+     </div>
+        <div>
+          <div class="image"><a href="product.html"><img title="Compq-Desktop 10.1" alt="Compq-Desktop 10.1" src="image/product/desktop3 85x100.jpg"></a></div>
+      </div>
+        <div>
+          <div class="image"><a href="product_asus.html"><img title="ASUS-Desktop" alt="ASUS-Desktop" src="image/product/asus-deskto 85x100.jpg"></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="box">
+  <div class="box-heading"><span>Specials</span></div>
+  <div class="box-content">
+    <div class="box-product1">
+        <div>
+            <div class="image"><a href="producttecno.html"><img alt="Tecno&quot;" title="Tecno &quot;" src="image/product/phone/phone1.jfif"></a></div>
+            <div class="name"><a href="producttecno.html">Tecno 252A</a></div>
+            <div class="price">
+                <span class="price-old">$105.50</span> <span class="price-new">$100.75</span>
+              </div>
+        </div>
+    </div>
+  </div>
+</section>
+    </div>
+    <!--Right End-->
+    <!--Middle Part Start-->
+    <div id="content">
+      <!--Breadcrumb Part Start-->
+      <div class="breadcrumb"> <a href="phones.html">Phones &amp; PDAs</a> » <a href="#">Tecno Tablets</a></div>
+      <!--Breadcrumb Part End-->
+      <div class="product-info">
+        <div class="left">
+      <div class="image"><a title="desktop" href="image/product/component/phone/phone4.jfif" class="colorbox"><img id="image" alt="laptop" title="laptop" src="image/product/phone/phone4.jfif" style="width: 250px; height: 250px;"></a></div>
+       <div class="image-additional">
+          <a title="desktop" href="image/product/component/phone/phone2.jfif" class="colorbox"><img width="62" alt="desktop" title="desktop" src="image/product/phone/phone2.jfif"></a>
+          <a  title="desktop" href="image/product/phone/phone3.jfif" class="colorbox"><img width="62" alt="desktop" title="desktop" src="image/product/phone/phone3.jfif"></a>
+          <a title="desktop" href="image/product/phone/phone1.jfif" class="colorbox"><img width="62" alt="desktop" title="desktop" src="image/product/phone/phone1.jfif"></a>
+        </div>
+    </div>
+<div class="right">
+  <div class="htabs" id="tabs">
+  <a href="#tab-information" class="info selected">Information</a>
+  <a href="#tab-description">Description</a>
+            <a href="#tab-review">Reviews (0)</a>
+  </div>
+  <div class="tab-content" id="tab-information">
+   <div class="description">
+    <form method="POST" action="#">
+        <span>Brand:</span> <a href="#">Tecno Tablets</a><br>
+        <span>Product Code:</span> Product 255<br>
+        <span>Reward Points:</span> 2<br>
+        <span>Availability:</span> In Stock         
+        </div>
+        <div class="price">
+            <span class="price-new">$105.00 - 450.50</span>
+            <span class="price-tax">Ex Tax: $2.00</span><br>
+            <td><span class="reward"><small>Price in reward points: 0</small></span></td> <br>
+        </div>
+        <div class="review">
+          <div><img alt="1 reviews" src="image/stars-4.png">
+          <a onClick="$('a[href=\'#tab-review\']').trigger('click');">No reviews</a> / 
+          <a onClick="$('a[href=\'#tab-review\']').trigger('click');">Write a review</a></div>
+        </div>
+        <div class="options">
+        <h2>Available Options</h2>
+        <br>
+          <div class="option" id="option-256">
+          <span class="required">*</span>
+          <b>Size:</b><br>    
+          <select name="option[256]">
+            <option value=""> --- Please Select --- </option>
+            <option value="">Small</option>
+            <option value="">Medium</option>
+            <option value="">Large</option>
+          </select>
+        </div><br><div class="option" id="option-255">
+          <span class="required">*</span>
+          <b>Color Option:</b><br>
+          <select name="option[255]">
+            <option value=""> --- Please Select --- </option>
+            <option value="">Red</option>
+            <option value="">Blue</option>
+            <option value="">Green</option>
+          </select>
+        </div>
+        <br>
+        </div>
+            <div class="cart">
+        <div>Qty:<input type="text" value="1" size="2" class="w30" name="quantity">
+          <input type="hidden" value="36" size="2" name="product_id">
+          &nbsp;<a title="Add to Cart" class="button" id="button-cart"><span>Add to Cart</span></a>&nbsp;&nbsp;</div>
+
+        <div><a href="wishlist.html" title="Add to Wish List" class="wish-list"><span>Add to Wish List</span></a>&nbsp;
+          <a href="50x.html" title="Add to Compare" class="compare-icon"><span>Add to Compare</span></a></div>
+              </div>
+    </form>
+      <div class="share">
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+<a class="addthis_button_tweet"></a>
+<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+<a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript" src="../../../s7.addthis.com/js/300/addthis_widget.js#pubid=xa-506f325f57fbfc95"></script>
+<!-- AddThis Button END -->
+</div>
+  </div>
+  <div class="tab-content" id="tab-description">
+    <div>
+  <p>
+    <strong>Office-Standards.</strong></p>
+  <p>
+    All types of phones products are made reliable, secure for users. With diferent features designed for different tasks, and many more features.</p>
+  <p>
+    <strong>Enhanced Features.</strong></p>
+  <p>
+   High security features  to prevent viruses amd malware attack through online or USB .</p>
+  <p>
+    <strong>Sleek and colorful.</strong></p>
+  <p>
+   Various choices available with different security features .</p>
+  </div>
+</div>
+
+<div class="tab-content" id="tab-review">
+    <h2 id="review-title">Write a review</h2>
+    <b>Your Name:</b><br>
+    <input type="text" value="" name="name">
+    <br>
+    <br>
+    <b>Your Review:</b>
+    <textarea class="w96" rows="8" cols="40" name="text"></textarea>
+    <br>
+    <b>Rating:</b> <span>Bad</span>&nbsp;
+    <input type="radio" value="1" name="rating">
+    &nbsp;
+    <input type="radio" value="2" name="rating">
+    &nbsp;
+    <input type="radio" value="3" name="rating">
+    &nbsp;
+    <input type="radio" value="4" name="rating">
+    &nbsp;
+    <input type="radio" value="5" name="rating">
+    &nbsp; <span>Good</span><br>
+    <br>
+    <b>Enter the code in the box below:</b><br>
+    <input type="text" value="" name="captcha">
+    <br>
+    <img class="mt10" id="captcha" alt="" src="#"><br>
+    <br>
+    <div class="buttons">
+      <div class="right"><a class="button" id="button-review"><span>Continue</span></a></div>
+    </div>
+  </div>
+  </div>
+    </div>
+    <!-- Related Products Start -->
+      <div class="box">
+        <div class="box-heading">Related Products (4)</div>
+        <div class="box-content">
+          <div class="box-product related">
+            <div>
+              <div class="image"><a href="productitelpda.html"><img src="image/product/phone/pdaimage1.jfif" alt="phone" title="phone" style="width: 150px; height: 100px;"/></a></div>
+              <div class="name"><a href="productitelpda.html">Itel PDAs</a></div>
+              <div class="price">$250.00</div>
+              <div class="abs">
+                <div class="cart"> <a class="button1" title="Add to Cart"><span>Add to Cart</span></a> <a class="btn-detail ml10" title="Detail" href="productitelpda.html"><span>Detail</span></a></div>
+              </div>
+            </div>
+            <div>
+              <div class="image"><a href="producttecno.html"><img src="image/product/phone/phone4.jfif" alt="phone" title="phone" style="width: 150px; height: 100px;"/></a></div>
+              <div class="name"><a href="producttecno.html">Tecno Tablets</a></div>
+              <div class="price"> $250.00</div>
+              <div class="abs">
+                <div class="cart"> <a onClick="addToCart('32');" class="button1" title="Add to Cart"><span>Add to Cart</span></a> <a class="btn-detail ml10" title="Detail" href="producttecno.html"><span>Detail</span></a></div>
+              </div>
+            </div>
+            <div>
+              <div class="image"><a href="productsumsangpda.html"><img src="image/product/phone/pdaimage6.jfif" alt="phone" title="phone" style="width: 150px; height: 100px;"/></a></div>
+              <div class="name"><a href="productsumsangpda.html">Sumsang PDAs</a></div>
+              <div class="price">$350.50</div>
+              <div class="abs">
+                <div class="cart"> <a onClick="addToCart('36');" class="button1" title="Add to Cart"><span>Add to Cart</span></a> <a class="btn-detail ml10" title="Detail" href="productsumsangpda.html"><span>Detail</span></a></div>
+              </div>
+            </div>
+            <div>
+              <div class="image"><a href="productinfinix.html"><img src="image/product/phone/phone2.jfif" alt="phone" title="phone" style="width: 150px; height: 100px;"/></a></div>
+              <div class="name"><a href="productinfinix.html">Infinix 342I</a></div>
+              <div class="price"> <span class="price-old">$69.50</span> <span class="price-new">$56.00</span> </div>
+              <div class="abs">
+                <div class="cart"> <a class="button1" title="Add to Cart"><span>Add to Cart</span></a> <a class="btn-detail ml10" title="Detail" href="productinfinix.html"><span>Detail</span></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Related Products End -->
+    </div>
+    <!--Middle Part End-->
+    <div class="clear"></div>
+      </div>
+    </section>
+    <div class="clear"></div>
+    <!-- About Store information Start -->
+    <section id="footer-top-outside">
+    <div class="line-bottom">
+      <div id="customHome" class="container_12">
+        <div id="about_us_footer" class="grid_3">
+          <h2>About InStore</h2>
+          <img class="about_us_image" alt="small logo" src="image/product/logo_small.png"/>
+          <p>Instore is Kenya's no. 1 online retailer, was established in May 2020 with the aim and vision to become the one-stop shop for retail in Kenya with implementation of best practices both online and offline..<br/>At inception we did an average delivery time of a week, today we do, on average, delivery in 1-5 days</p>
+        </div>
+        <!--  TWITTER -->
+        <div id="twitter_footer" class="grid_3">
+          <h2>Latest Tweets</h2>
+          <ul id="twitter_update_list">
+            <script type="text/javascript"
+  src="../../../twitter.com/javascripts/blogger.js"></script>
+            <script
+  type="text/javascript" src="https://api.twitter.com/1/statuses/user_timeline.json?screen_name=harnishdesign&amp;callback=twitterCallback2&amp;count=2"></script>
+          </ul>
+        </div>
+        <div id="contact_footer" class="grid_3">
+          <h2>Contact Us</h2>
+          <ul>
+            <li>
+              <!-- TELEPHONE -->
+              <ul id="tel" class="contact_column">
+                <li id="footer_telephone">+254 714795773</li>
+                <li id="footer_telephone2">+254 714795773</li>
+              </ul>
+              <!-- FAX  -->
+              <ul id="fax" class="contact_column">
+                <li id="footer_fax">+254 785267980</li>
+              </ul>
+              <!-- EMAIL -->
+              <ul id="mail" class="contact_column">
+                <li id="footer_email">samtis2010@gmail.com</li>
+                <li id="footer_email2">info@mutisya.com</li>
+              </ul>
+              <!-- SKYPE -->
+              <ul id="skype" class="contact_column">
+                <li id="footer_skype">Mutisyadesign</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!--  FACEBOOK -->
+        <div id="facebook_footer" class="grid_3">
+          <h2>Facebook</h2>
+          <div class="facebook-outer">
+            <div id="facebook" >
+              <div id="fb-root"></div>
+              <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../../../connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+              <div class="fb-like-box" data-href="http://www.facebook.com/160281810726316" data-width="240" data-connections="9" data-height="200" data-show-faces="true" data-stream="false" data-header="false" data-border-color="#fff"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="line-bottom1"></div>
+  </section>
+  <!-- About Store information End-->
+</div>
+<!--Footer Part Start-->
+<footer id="footer-main">
+  <div id="footer">
+    <div class="column">
+      <h3>Information</h3>
+      <ul>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="about-us.html">Delivery Information</a></li>
+        <li><a href="about-us.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>Customer Service</h3>
+      <ul>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="sitemap.html">Site Map</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>Extras</h3>
+      <ul>
+        <li><a href="#">Brands</a></li>
+        <li><a href="#">Gift Vouchers</a></li>
+        <li><a href="#">Specials</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>My Account</h3>
+      <ul>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Wish List</a></li>
+        <li><a href="#">Newsletter</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="powered-main">
+    <div id="powered">
+      <div class="fl"><a href="#">InStore Market Website</a> &copy; 2020</div>
+      Designed By <a target="_blank" href="https://mutisoftwares.co.ke/">MutiSoftwares 0714795773</a>
+      <div class="back-to-top" id="back-top"><a title="Back to Top" href="javascript:void(0)" class="backtotop">Top</a></div>
+    </div>
+  </div>
+</footer>
+<!--Footer Part End-->
+<!-- JS Part Start-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="js/jquery.easing-1.3.min.js"></script>
+<script type="text/javascript" src="js/colorbox/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<!-- JS Part End-->
+</body>
+</html>
