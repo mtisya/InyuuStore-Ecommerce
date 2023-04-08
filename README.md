@@ -1,4 +1,4 @@
-<h1>InyuuStore Ecommerce Project (https://mtisya.github.io/inStore.github.io/).</h1>
+<h1>InyuuStore Ecommerce Project (https://mtisya.github.io/InyuuStore-Ecommerce.github.io/).</h1>
 
 <h2>About The Project</h2>
 
